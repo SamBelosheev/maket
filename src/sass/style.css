@@ -127,6 +127,11 @@ h5 {
   border: 1px solid #FF9900;
   color: #ffffff;
 }
+@media (max-width: 414px) {
+  .button_colored {
+    margin-bottom: 20px;
+  }
+}
 .button_colored:hover {
   background: #FF7549;
   border-color: #FF7549;
@@ -884,7 +889,7 @@ ul {
 .footer-navigation {
   text-align: left;
   flex-grow: 1;
-  padding-left: 152px;
+  margin-left: 152px;
 }
 @media (max-width: 768px) {
   .footer-navigation {
@@ -895,6 +900,7 @@ ul {
 @media (max-width: 414px) {
   .footer-navigation {
     flex-direction: column;
+    margin-left: 0;
   }
 }
 
@@ -925,6 +931,12 @@ ul {
 @media (max-width: 768px) {
   .contact-us {
     text-align: center;
+  }
+}
+@media (max-width: 414px) {
+  .contact-us {
+    text-align: center;
+    padding: 0 0;
   }
 }
 
@@ -989,6 +1001,10 @@ ul {
 .contact-us__form input:focus, .contact-us__form textarea:focus {
   border: 1px solid #FF9900;
   outline: none;
+}
+.contact-us__form input {
+  resize: none;
+  width: 100%;
 }
 .contact-us__form textarea {
   resize: none;
@@ -1062,7 +1078,7 @@ ul {
   align-items: center;
 }
 .promo__button > * {
-  margin-right: 44px;
+  margin-right: 0;
 }
 .promo__button > *:last-child {
   margin-right: 0;
@@ -1070,11 +1086,11 @@ ul {
 @media (max-width: 414px) {
   .promo__button {
     flex-direction: column;
+    align-items: center;
     margin-right: 0;
     margin-bottom: 26px;
   }
   .promo__button:last-child {
-    margin-right: 0;
     margin-bottom: 0;
   }
 }
