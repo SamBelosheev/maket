@@ -10,13 +10,13 @@
   font-family: "Poppins", Verdana, sans-serif;
 }
 
-.madal::-webkit-scrollbar {
+.modal::-webkit-scrollbar {
   width: 5px;
 }
-.madal::-webkit-scrollbar-track {
+.modal::-webkit-scrollbar-track {
   box-shadow: inset 0 0 1px grey;
 }
-.madal::-webkit-scrollbar-thumb {
+.modal::-webkit-scrollbar-thumb {
   background: #7752BE;
   border-radius: 10px;
 }
@@ -142,7 +142,7 @@ h5 {
   color: #F03E3D;
 }
 .link-button:hover .ico_play {
-  background-image: url("./././src/img/icons/Triangle Copy 6.jpg");
+  background-image: url("./././src/img/icons/Triangle_Copy_6.jpg");
 }
 
 .link-button__text {
@@ -205,43 +205,43 @@ h5 {
 }
 
 .ico_play {
-  background-image: url("./src/img/icons/Triangle Copy 6.jpg");
+  background-image: url("/src/img/icons/Triangle_Copy_6.jpg");
   width: 18px;
   height: 19px;
 }
 
 .ico_arrow {
-  background-image: url("./src/img/icons/arrow.svg");
+  background-image: url("/src/img/icons/arrow.svg");
   width: 12px;
   height: 17px;
 }
 
 .ico_warm {
-  background-image: url("./src/img/icons/warm.svg");
+  background-image: url("/src/img/icons/warm.svg");
   width: 12px;
   height: 17px;
 }
 
 .ico_heart {
-  background-image: url("./src/img/icons/heart.svg");
+  background-image: url("/src/img/icons/heart.svg");
   width: 12px;
   height: 17px;
 }
 
 .ico_time {
-  background-image: url("./src/img/icons/time.svg");
+  background-image: url("/src/img/icons/time.svg");
   width: 12px;
   height: 17px;
 }
 
 .ico_phone {
-  background-image: url("./src/img/icons/ico_phone.jpg");
+  background-image: url("/src/img/icons/ico_phone.jpg");
   width: 13px;
   height: 13px;
 }
 
 .ico-ico_later {
-  background-image: url("./src/img/icons/ico_mail.jpg");
+  background-image: url("/src/img/icons/ico_mail.jpg");
   width: 13px;
   height: 13px;
 }
@@ -704,7 +704,7 @@ ul {
   justify-content: center;
 }
 
-.madal {
+.modal {
   position: relative;
   border-radius: 10px;
   background-color: #ffffff;
@@ -714,7 +714,7 @@ ul {
   overflow: auto;
 }
 @media (max-width: 768px) {
-  .madal {
+  .modal {
     width: 90%;
   }
 }
@@ -1121,7 +1121,7 @@ ul {
 
 .tools__wrapper {
   padding-bottom: 90px;
-  background-image: url("./src/img/icons/Triangle Copy 6.jpg");
+  background-image: url("/src/img/Bg.svg");
   background-position: center bottom;
   background-size: 100%;
   background-repeat: no-repeat;
