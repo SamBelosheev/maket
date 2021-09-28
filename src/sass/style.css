@@ -974,6 +974,11 @@ ul {
 .contact-us__link:hover {
   text-decoration: underline;
 }
+@media (max-width: 414px) {
+  .contact-us__link {
+    white-space: nowrap;
+  }
+}
 
 .contact-us__form input, .contact-us__form textarea {
   border: 1px solid #ffffff;
@@ -1046,6 +1051,11 @@ ul {
 .promo__title {
   margin: 0 0 30px;
 }
+@media (max-width: 414px) {
+  .promo__title {
+    text-align: center;
+  }
+}
 
 .promo__button {
   display: flex;
@@ -1059,10 +1069,12 @@ ul {
 }
 @media (max-width: 414px) {
   .promo__button {
+    flex-direction: column;
     margin-right: 0;
     margin-bottom: 26px;
   }
   .promo__button:last-child {
+    margin-right: 0;
     margin-bottom: 0;
   }
 }
@@ -1153,6 +1165,11 @@ ul {
   }
 }
 @media (max-width: 768px) and (max-width: 414px) {
+  .tool-container {
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
   .tool-container > .tool {
     flex-basis: 100%;
     margin-bottom: 47px;
@@ -1286,12 +1303,22 @@ ul {
 .employee-container {
   padding-right: 32px;
 }
+@media (max-width: 768px) {
+  .employee-container {
+    flex-direction: column;
+  }
+}
 
 .employee {
   display: flex;
   padding: 35px;
   position: relative;
   width: calc(30% - 32px);
+}
+@media (max-width: 768px) {
+  .employee {
+    width: auto;
+  }
 }
 
 .employee__name {
