@@ -21,6 +21,9 @@
     background: $color-primary;
     border: 1px solid $color-primary;
     color: $color-light;
+    @include media-mobile{
+      margin-bottom: 20px;
+    }
     &:hover{
       background: $color-additional;
       border-color: $color-additional;
