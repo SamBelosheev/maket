@@ -24,6 +24,9 @@
 
 .promo__title{
   margin: 0 0 30px;
+  @include media-mobile{
+    text-align: center;
+  }
 }
 
 .promo__button{
@@ -36,9 +39,11 @@
     }
   }
   @include media-mobile{
+    flex-direction: column;
     margin-right: 0;
     margin-bottom: 26px;
     &:last-child{
+      margin-right: 0;
       margin-bottom: 0;
     }
   }

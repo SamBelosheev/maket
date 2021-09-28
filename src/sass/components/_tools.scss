@@ -1,6 +1,6 @@
 .tools__wrapper{
   padding-bottom: 90px;
-  background-image: url("/maket/src/img/Bg.svg");
+  background-image: url("/src/img/Bg.svg");
   background-position: center bottom;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -30,6 +30,9 @@
       flex-basis: 43%;
     }
     @include media-mobile{
+      text-align: center;
+      flex-direction: column;
+      flex-wrap: wrap;
       >.tool{
         flex-basis: 100%;
         margin-bottom: 47px;

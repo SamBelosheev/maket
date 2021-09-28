@@ -44,6 +44,9 @@
   &:hover{
     text-decoration: underline;
   }
+  @include media-mobile{
+    white-space: nowrap;
+  }
 }
 
 .contact-us__form{
